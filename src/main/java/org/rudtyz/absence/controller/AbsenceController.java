@@ -3,7 +3,6 @@ package org.rudtyz.absence.controller;
 import com.fasterxml.jackson.annotation.JsonRawValue;
 import org.rudtyz.absence.model.Absence;
 import org.rudtyz.absence.service.AbsenceService;
-import org.rudtyz.absence.validator.AbsenceValidator;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.validation.BindException;
 import org.springframework.validation.BindingResult;

@@ -9,6 +9,7 @@ import javax.validation.constraints.NotNull;
 import java.util.Date;
 
 @Entity
+@Table(indexes = {@Index(columnList = "beginDate")})
 public class Absence {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
